@@ -1,0 +1,232 @@
+body{
+    font-family: 'Montserrat';
+}
+h1 {
+    font-family: 'Montserrat';
+    font-size: 3rem;  
+    line-height: 1.5;  
+    font-weight: 900!important;
+    
+}
+
+h1:hover {
+    font-size: 3.1rem;
+}
+
+h2{
+    font-family: "montserrat";
+    font-weight: bold;
+    size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 3% 15% 8%;
+}
+
+/* title section */
+#title{
+    background-color: #ff4c68;
+    color: aliceblue;
+    
+
+}
+
+.navbar {
+    padding: 0 0 3.5rem;
+}
+
+.navbar-brand {
+    
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+ font-size: 1.2rem;
+ font-weight: light;
+}
+
+.img-dog {
+    width: 50%;
+    transform: rotate(25deg);
+    right: 30%;
+    position: absolute;
+
+}
+
+.img-dog:hover {
+    transform: rotate(23deg);
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* feature section */
+
+
+
+.feat {
+    text-align: center;
+    padding: 5%;
+}
+
+.feat-icon {
+    color: #ef7182;
+    margin-bottom: 1rem;
+}
+
+.feat-icon:hover {
+    color:darkblue;
+
+}
+    
+.feat-des {
+    color: #8f8f8f;
+}
+
+.feat-head {
+    font-family: 'Montserrat';
+    font-size: 1.5rem;  
+ 
+    font-weight: bold;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    
+}
+
+
+/* testimonial section */
+
+#testimonials {
+    
+    text-align: center;
+    background-color: #ef7182;
+    color: aliceblue;
+    
+}
+
+.dog-img {
+    border-radius: 100%;
+    width: 15%;
+margin: 20px;
+}
+.dog-img:hover{
+    width: 16%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+ background-color: #ef7182;
+ text-align: center;
+ padding: 2rem;
+}
+
+.press-img {
+    width: 12%;
+    margin: 0 5%;
+}
+
+/* pricing section */
+
+.pricetop{
+    text-align: center;
+    size: extra large;
+}
+.price{
+    text-align: center;
+    padding: 5%;
+    font-family: "ubuntu";
+}
+
+
+.tableprice {
+
+    border-collapse: collapse;
+    border: 1px solid #dddddd;
+    width: 100%;
+  }
+.headprice{
+    border: 1px solid #dddddd;
+    background-color: rgb(241, 241, 241);
+    padding: 8px;
+    
+    font-size: 2.5rem;
+    font-weight: bold
+}
+
+.rowprice{
+    
+    padding: 8px;
+
+}
+
+ .botn{
+     width: 97%;
+ }
+ .botn:hover{
+     background-color: white;
+     color: black;
+ }
+
+
+
+
+#cta{
+
+    background-color: #ff4c68;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bolder;
+    padding: 5rem;
+}
+
+#footer{
+    text-align: center;
+    color: #8f8f8f;
+    font-family: 'Montserrat';
+    font-size: 1rem;  
+    padding: 5%;
+}
+
+.fi{
+    color: black;
+    padding: 1.25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:992px){
+    #title{
+        text-align: center;
+    }
+    .img-dog{
+        position: static;
+        transform: rotate(0);
+    }
+}
